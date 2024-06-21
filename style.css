@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+
+    background-color: #1F2937;
+
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul {
+
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+.body {
+
+    flex: 1;
+
+}
