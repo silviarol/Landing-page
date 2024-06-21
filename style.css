@@ -74,6 +74,7 @@ button {
     color: white;
     border-radius: 5px;
     border: 0px;
+    padding: 5px;
 }
 
 .logo {
@@ -95,4 +96,18 @@ img {
 
     width: 300px;
     height: auto;
+}
+
+.pics {
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+
+    text-align: center;
 }
