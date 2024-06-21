@@ -1,3 +1,8 @@
+* {
+
+  box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -11,7 +16,6 @@ body {
     background-color: #1F2937;
     color: white;
     padding: 8px 200px;
-
 }
 
 .header {
@@ -26,8 +30,6 @@ body {
 ul {
 
     display: flex;
-    margin: 0px;
-    padding: 0px;
     list-style: none;
     gap: 16px;
 }
@@ -39,18 +41,17 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
 }
 
 .drip {
 
     width: 600px;
     height: auto;
+    flex: 1;
 }
 
 .main {
 
-    padding: 100px 0px;
     display: flex;
     gap:15px;
     justify-content: space-between;
@@ -82,16 +83,6 @@ button {
     font-size: 24px;
 }
 
-.footer {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1F2937;
-    color: white;
-    padding: 50px;
-}
-
 img {
 
     width: 300px;
@@ -102,7 +93,7 @@ img {
 
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 50px;
     text-align: center;
     align-items: center;
 }
@@ -110,4 +101,30 @@ img {
 h1 {
 
     text-align: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    margin: 50px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign {
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    align-self: end;
+}
+
+#footer {
+
+    background: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
